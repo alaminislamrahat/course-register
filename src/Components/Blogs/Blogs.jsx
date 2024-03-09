@@ -2,9 +2,9 @@
 import { useEffect } from "react";
 import Blog from "../Blog/Blog";
 import { useState } from "react";
+import PropTypes from 'prop-types';
 
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+
 
 
 const Blogs = ({handleTitleList}) => {
@@ -32,4 +32,8 @@ const Blogs = ({handleTitleList}) => {
     );
 };
 
+
+Blogs.propTypes = {
+    handleTitleList:PropTypes.func.isRequired
+}
 export default Blogs;

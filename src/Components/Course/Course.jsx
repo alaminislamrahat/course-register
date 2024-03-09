@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 const Course = ({course}) => {
     const {title} = course;
@@ -11,4 +11,7 @@ const Course = ({course}) => {
     );
 };
 
+Course.propTypes = {
+    course : PropTypes.object.isRequired,
+}
 export default Course;

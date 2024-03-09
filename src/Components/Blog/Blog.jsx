@@ -1,9 +1,10 @@
 import { IoBookOutline } from "react-icons/io5";
 import { HiOutlineCurrencyDollar } from "react-icons/hi2";
+import PropTypes from 'prop-types';
 
 
 const Blog = ({ blog,handleTitleList }) => {
-    const { id, cover, title, description, price, credit } = blog;
+    const {  cover, title, description, price, credit } = blog;
     return (
         <div className="py-4 bg-white px-2 py-2">
 
@@ -24,4 +25,9 @@ const Blog = ({ blog,handleTitleList }) => {
     );
 };
 
+
+Blog.propTypes = {
+    blog:PropTypes.object.isRequired,
+    handleTitleList:PropTypes.func.isRequired,
+}
 export default Blog;
