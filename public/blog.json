@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "cover": "https://tinypic.host/images/2024/03/07/Rectangle-2.png",
+        "title": "The Enigmatic Chronicles",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 15000,
+        "credit": 1
+    },
+    {
+        "id": 2,
+        "cover": "https://tinypic.host/images/2024/03/07/Rectangle-2-1.png",
+        "title": "Echoes of Eternity",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 25000,
+        "credit": 9
+    },
+    {
+        "id": 3,
+        "cover": "https://tinypic.host/images/2024/03/07/Rectangle-2-2.png",
+        "title": "The Midnight Masquerade",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 10000,
+        "credit": 6
+    },
+    {
+        "id": 4,
+        "cover": "https://tinypic.host/images/2024/03/07/Rectangle-2-3.png",
+        "title": "Beyond the Horizon",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 27000,
+        "credit": 4
+    },
+    {
+        "id": 5,
+        "cover": "https://tinypic.host/images/2024/03/07/Rectangle-2-4.png",
+        "title": "Whispers in the Woods",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 9000,
+        "credit": 2
+    },
+    {
+        "id": 6,
+        "cover": "https://tinypic.host/images/2024/03/07/Rectangle-2-5.png",
+        "title": "Sands of Time",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 6000,
+        "credit": 8
+    },
+    {
+        "id": 7,
+        "cover": "https://tinypic.host/images/2024/03/07/Rectangle-2-6.png",
+        "title": "The Forgotten Kingdom",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 15000,
+        "credit": 5
+    },
+    {
+        "id": 8,
+        "cover": "https://tinypic.host/images/2024/03/07/Rectangle-3.png",
+        "title": "In the Shadow of Giants",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 13000,
+        "credit": 7
+    },
+    {
+        "id": 9,
+        "cover": "https://tinypic.host/images/2024/03/07/Rectangle-3-1.png",
+        "title": "Echoes of Destiny",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "price": 9000,
+        "credit": 10
+    }
+]
