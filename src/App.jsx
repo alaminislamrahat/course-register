@@ -18,7 +18,7 @@ function App() {
   const[totalPrice,setTotalPrice] = useState(0);
 
 
-  const over = () => toast.error("Course time is over!");
+  const over = () => toast.warn("Course time is over!");
   const notify = () => toast.error("This course is previously added!");
   
 
@@ -73,7 +73,7 @@ function App() {
         ></Courses>
 
     <ToastContainer
-    theme="dark"
+    theme="colored"
      />
    
         </div>
