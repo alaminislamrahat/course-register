@@ -61,7 +61,7 @@ function App() {
   return (
     <>
         <Header></Header>
-      <div className="md:flex max-w-7xl mx-auto bg-[#F3F3F3]">
+      <div className="flex flex-col-reverse md:flex md:flex-row max-w-7xl mx-auto bg-[#F3F3F3]">
         <Blogs
         handleTitleList={handleTitleList}
         ></Blogs>
