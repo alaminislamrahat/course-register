@@ -14,6 +14,8 @@ function App() {
 
   
   const[totalCreadits,setTotalCreadits] = useState(0);
+  const[remainingCreadit,setRemainingCreadit] = useState(20);
+  const[totalPrice,setTotalPrice] = useState(0);
 
 
   const over = () => toast.error("Course time is over!");
@@ -23,6 +25,7 @@ function App() {
   const handleTitleList = (blog)=>{
    
     let count = blog.credit;
+    let price = blog.price;
    
     
     const similerTitle = courses.find(title => title.id == blog.id)
@@ -32,9 +35,21 @@ function App() {
     }
     else{
       const newCourses = [...courses,blog];
-      setCourses(newCourses);
+      
       courses.forEach(course => count += course.credit);
-      setTotalCreadits(count);
+      const newRemaining = 20 - count;
+      courses.forEach(course => price += course.price)
+      
+      if(count > 20){
+        over();
+        return courses;
+      }
+      else{
+        setTotalCreadits(count);
+        setCourses(newCourses);
+        setRemainingCreadit(newRemaining);
+        setTotalPrice(price);
+      }
      
     }
 
@@ -53,6 +68,8 @@ function App() {
         <Courses
         courses={courses}
         totalCreadits={totalCreadits}
+        remainingCreadit={remainingCreadit}
+        totalPrice={totalPrice}
         ></Courses>
 
     <ToastContainer
